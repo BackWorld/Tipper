@@ -87,7 +87,7 @@ public final class TipperHUD: TipperViewController {
 		return vc
 	}
 	
-	static func removeAll() {
+	public static func removeAll() {
 		let viewControllers = Tipper.topViewControllerOfApplicationKeyWindow()?.childViewControllers
 		viewControllers?.forEach{
 			vc in

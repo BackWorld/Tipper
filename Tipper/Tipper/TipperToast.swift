@@ -63,7 +63,7 @@ internal final class TipperToast: TipperViewController {
 		return vc
 	}
 	
-	internal static func removeAll() {
+	public static func removeAll() {
 		let viewControllers = Tipper.topViewControllerOfApplicationKeyWindow()?.childViewControllers
 		viewControllers?.forEach{
 			vc in
