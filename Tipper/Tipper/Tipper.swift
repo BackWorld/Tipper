@@ -8,6 +8,15 @@
 
 import UIKit
 
+extension UIDevice{
+	var hasNotch: Bool{
+		return UIApplication.shared.statusBarFrame.height == 44
+	}
+	
+	var homeIndicatorHeight: CGFloat{
+		return hasNotch ? 34 : 0
+	}
+}
 
 extension Bundle{
 	static var tipperResourceBundle: Bundle?{

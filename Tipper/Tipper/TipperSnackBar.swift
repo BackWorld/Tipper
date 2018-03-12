@@ -134,7 +134,7 @@ public final class TipperSnackBar: TipperViewController {
 	fileprivate var showingOffsetY: CGFloat{
 		let statusBarHeight = UIApplication.shared.statusBarFrame.height
 		guard position == .top else {
-			return view.bounds.height - wrapper.bounds.height - (statusBarHeight == 44 ? 34 : 0)
+			return view.bounds.height - wrapper.bounds.height - UIDevice.current.homeIndicatorHeight
 		}
 		
 		var topOffset = statusBarHeight

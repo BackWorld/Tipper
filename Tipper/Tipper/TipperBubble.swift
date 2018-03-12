@@ -30,7 +30,7 @@ public final class TipperBubble: TipperViewController {
 	override public func animate(isShowing: Bool) {
 		let rect = arrow.frame
 		view.addSubview(arrow)
-		bottomCons.constant = view.bounds.height - rect.origin.y + 20
+		bottomCons.constant = view.bounds.height - rect.origin.y + 20 - UIDevice.current.homeIndicatorHeight
 	}
 	
 
