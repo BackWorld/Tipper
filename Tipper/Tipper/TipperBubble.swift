@@ -11,6 +11,11 @@ import UIKit
 public final class TipperBubble: TipperViewController {
 
 // MARK: - IBOutlets
+	@IBOutlet weak var iconIV: UIImageView!{
+		didSet{
+			iconIV.image = Tipper.icon("icon_tipper_warning")
+		}
+	}
 	@IBOutlet weak var bottomCons: NSLayoutConstraint!
 
 // MARK: - Properties

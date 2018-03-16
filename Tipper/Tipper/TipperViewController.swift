@@ -61,8 +61,8 @@ public class TipperViewController: UIViewController {
 extension TipperViewController{
 	static func instanceFromXibWithIndex<T: TipperViewController>(_ index: Int = 0) -> T{
 		
-		guard let bundle = Bundle.tipperResourceBundle,
-			let nibs = bundle.loadNibNamed("Tipper", owner: nil, options: nil),
+		guard
+			let nibs = Bundle.main.loadNibNamed("\(Tipper.resourcePath)/Tipper", owner: nil, options: nil),
 			index < nibs.count, 
 			let vc = nibs[index] as? T else{
 				fatalError("\(String(describing: T.self)) 加载失败")

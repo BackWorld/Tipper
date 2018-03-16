@@ -15,11 +15,11 @@ public extension TipperHUD{
 		var icon: UIImage?{
 			switch self {
 			case .success:
-				return UIImage.tipperIcon(named: "icon_tipper_success")
+				return Tipper.icon("icon_tipper_success")
 			case .warning:
-				return UIImage.tipperIcon(named: "icon_tipper_warning")
+				return Tipper.icon("icon_tipper_warning")
 			case .failure:
-				return UIImage.tipperIcon(named: "icon_tipper_failure")
+				return Tipper.icon("icon_tipper_failure")
 			case .loading: return nil
 			}
 		}

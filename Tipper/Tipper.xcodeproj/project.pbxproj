@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801259D3205BA975004AC355 /* icon_tipper_failure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8053468E205265EB00F22349 /* icon_tipper_failure@2x.png */; };
+		801259D4205BA975004AC355 /* icon_tipper_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8053468F205265EB00F22349 /* icon_tipper_success@2x.png */; };
+		801259D5205BA975004AC355 /* icon_tipper_warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80534690205265EB00F22349 /* icon_tipper_warning@2x.png */; };
+		801259D6205BA979004AC355 /* Tipper.xib in Resources */ = {isa = PBXBuildFile; fileRef = 805346882052636C00F22349 /* Tipper.xib */; };
 		805346812052632C00F22349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805346792052632C00F22349 /* AppDelegate.swift */; };
 		805346822052632C00F22349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8053467A2052632C00F22349 /* Assets.xcassets */; };
 		805346832052632C00F22349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8053467B2052632C00F22349 /* LaunchScreen.storyboard */; };
 		805346842052632C00F22349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8053467D2052632C00F22349 /* Main.storyboard */; };
 		805346852052632C00F22349 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8053467F2052632C00F22349 /* Info.plist */; };
 		805346862052632C00F22349 /* TipperHUDDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805346802052632C00F22349 /* TipperHUDDemoVC.swift */; };
-		8053468A2052636C00F22349 /* Tipper.xib in Resources */ = {isa = PBXBuildFile; fileRef = 805346882052636C00F22349 /* Tipper.xib */; };
-		80534691205265EB00F22349 /* icon_tipper_failure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8053468E205265EB00F22349 /* icon_tipper_failure@2x.png */; };
-		80534692205265EB00F22349 /* icon_tipper_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8053468F205265EB00F22349 /* icon_tipper_success@2x.png */; };
-		80534693205265EB00F22349 /* icon_tipper_warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80534690205265EB00F22349 /* icon_tipper_warning@2x.png */; };
 		805346962052694A00F22349 /* TipperToastDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805346952052694A00F22349 /* TipperToastDemoVC.swift */; };
 		8053469820526DA800F22349 /* TipperSnackBarDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053469720526DA800F22349 /* TipperSnackBarDemoVC.swift */; };
 		8053469A2052784C00F22349 /* TipperBubbleDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805346992052784C00F22349 /* TipperBubbleDemoVC.swift */; };
-		80919D4B205625870042E157 /* TipperBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 809DFC7B205286C900FCE73C /* TipperBundle.bundle */; };
 		80A7A68D20510CD30085816D /* Tipper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80CF69D31FE76C16003D1ACD /* Tipper.framework */; };
 		80A7A68E20510CD30085816D /* Tipper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 80CF69D31FE76C16003D1ACD /* Tipper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		80CF6A281FE76DDB003D1ACD /* Tipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF6A1E1FE76DDB003D1ACD /* Tipper.swift */; };
@@ -56,8 +55,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		805346722052625F00F22349 /* TipperBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		805346742052625F00F22349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		805346792052632C00F22349 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8053467A2052632C00F22349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8053467C2052632C00F22349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,7 +68,6 @@
 		805346952052694A00F22349 /* TipperToastDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipperToastDemoVC.swift; sourceTree = "<group>"; };
 		8053469720526DA800F22349 /* TipperSnackBarDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipperSnackBarDemoVC.swift; sourceTree = "<group>"; };
 		805346992052784C00F22349 /* TipperBubbleDemoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipperBubbleDemoVC.swift; sourceTree = "<group>"; };
-		809DFC7B205286C900FCE73C /* TipperBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TipperBundle.bundle; path = Tipper/TipperBundle.bundle; sourceTree = SOURCE_ROOT; };
 		80A7A6782051096D0085816D /* TipperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CF69D31FE76C16003D1ACD /* Tipper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tipper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80CF6A1C1FE76DDB003D1ACD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,13 +80,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8053466F2052625F00F22349 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80A7A6752051096D0085816D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,14 +98,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		805346732052625F00F22349 /* TipperBundle */ = {
-			isa = PBXGroup;
-			children = (
-				805346742052625F00F22349 /* Info.plist */,
-			);
-			path = TipperBundle;
-			sourceTree = "<group>";
-		};
 		805346782052632C00F22349 /* TipperDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +137,6 @@
 			children = (
 				80CF6A1B1FE76DDB003D1ACD /* SourceCode */,
 				805346782052632C00F22349 /* TipperDemo */,
-				805346732052625F00F22349 /* TipperBundle */,
 				80CF69D41FE76C16003D1ACD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -166,7 +146,6 @@
 			children = (
 				80CF69D31FE76C16003D1ACD /* Tipper.framework */,
 				80A7A6782051096D0085816D /* TipperDemo.app */,
-				805346722052625F00F22349 /* TipperBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,7 +159,6 @@
 				80CF6A231FE76DDB003D1ACD /* TipperSnackBar.swift */,
 				80CF6A241FE76DDB003D1ACD /* TipperToast.swift */,
 				80CF6A251FE76DDB003D1ACD /* TipperViewController.swift */,
-				809DFC7B205286C900FCE73C /* TipperBundle.bundle */,
 				80CF6A1C1FE76DDB003D1ACD /* Info.plist */,
 				805346882052636C00F22349 /* Tipper.xib */,
 				8053468D205265EB00F22349 /* Icons */,
@@ -202,23 +180,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		805346712052625F00F22349 /* TipperBundle */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 805346752052625F00F22349 /* Build configuration list for PBXNativeTarget "TipperBundle" */;
-			buildPhases = (
-				8053466E2052625F00F22349 /* Sources */,
-				8053466F2052625F00F22349 /* Frameworks */,
-				805346702052625F00F22349 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TipperBundle;
-			productName = TipperBundle;
-			productReference = 805346722052625F00F22349 /* TipperBundle.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		80A7A6772051096D0085816D /* TipperDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80A7A6872051096D0085816D /* Build configuration list for PBXNativeTarget "TipperDemo" */;
@@ -266,10 +227,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = GuessMe;
 				TargetAttributes = {
-					805346712052625F00F22349 = {
-						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
-					};
 					80A7A6772051096D0085816D = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
@@ -295,24 +252,12 @@
 			projectRoot = "";
 			targets = (
 				80CF69D21FE76C16003D1ACD /* Tipper */,
-				805346712052625F00F22349 /* TipperBundle */,
 				80A7A6772051096D0085816D /* TipperDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		805346702052625F00F22349 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80534693205265EB00F22349 /* icon_tipper_warning@2x.png in Resources */,
-				80534691205265EB00F22349 /* icon_tipper_failure@2x.png in Resources */,
-				8053468A2052636C00F22349 /* Tipper.xib in Resources */,
-				80534692205265EB00F22349 /* icon_tipper_success@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80A7A6762051096D0085816D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,20 +273,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80919D4B205625870042E157 /* TipperBundle.bundle in Resources */,
+				801259D5205BA975004AC355 /* icon_tipper_warning@2x.png in Resources */,
+				801259D3205BA975004AC355 /* icon_tipper_failure@2x.png in Resources */,
+				801259D4205BA975004AC355 /* icon_tipper_success@2x.png in Resources */,
+				801259D6205BA979004AC355 /* Tipper.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8053466E2052625F00F22349 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80A7A6742051096D0085816D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,42 +338,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		805346762052625F00F22349 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = TipperBundle/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gm.TipperBundle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		805346772052625F00F22349 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = TipperBundle/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gm.TipperBundle;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		80A7A6882051096D0085816D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -604,15 +509,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		805346752052625F00F22349 /* Build configuration list for PBXNativeTarget "TipperBundle" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				805346762052625F00F22349 /* Debug */,
-				805346772052625F00F22349 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		80A7A6872051096D0085816D /* Build configuration list for PBXNativeTarget "TipperDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

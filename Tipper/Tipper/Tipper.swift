@@ -18,21 +18,8 @@ extension UIDevice{
 	}
 }
 
-extension Bundle{
-	static var tipperResourceBundle: Bundle?{
-		let path = Bundle.main.path(forResource: "Frameworks/Tipper.framework/TipperBundle", ofType: "bundle")
-		return Bundle(path: path!)
-	}
-}
-
-extension UIImage{
-	static func tipperIcon(named: String) -> UIImage{
-		return UIImage(named: named, in: Bundle.tipperResourceBundle, compatibleWith: nil) ?? UIImage()
-	}
-}
-
 public struct Tipper {
-	public static func toast(message: String, 
+	public static func toast(message: String,
 	                         delay: Int = 1){
 		
 		TipperToast.removeAll()
@@ -101,7 +88,15 @@ public struct Tipper {
 	}
 }
 
-internal extension Tipper{
+
+
+extension Tipper{
+	static let resourcePath = "Frameworks/Tipper.framework"
+	
+	static func icon(_ named: String) -> UIImage{
+		return UIImage(named: "\(Tipper.resourcePath)/\(named)", in: Bundle.main, compatibleWith: nil) ?? UIImage()
+	}
+	
 	fileprivate static func present(tipper vc: UIViewController){
 		UIApplication.shared.keyWindow?.endEditing(true)
 		
