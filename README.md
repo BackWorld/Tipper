@@ -1,9 +1,6 @@
-# Tipper
-A brilliant User-Activity-Tips UI component.
-
 ### 要求
 - Xcode8.3+
-- Swift3.2
+- Swift3.2+
 - iOS8.0+
 
 ### 介绍
@@ -92,11 +89,16 @@ Tipper.bubble(from: sender, message: "xxx")
 
 >2.在终端执行`carthage update`
 
-> 3.将`Carthage/Build/iOS`目录下的`Tipper.framework`和`Carthage/Checkouts/Tipper/Tipper/Tipper`目录下的`TipperBuddle.buddle`拖到你的项目中
+> 3.将`Carthage/Build/iOS`目录下的`Tipper.framework`拖到你的项目中
+![Tipper.framework](https://upload-images.jianshu.io/upload_images/1334681-4148c8aa39b48046.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 > 4.在使用的swift文件中`import Tipper`即可
 
 ### 简书
 https://www.jianshu.com/p/2530ec4df309
 
+### iPhoneX适配
+![iPhoneX适配](https://upload-images.jianshu.io/upload_images/1334681-0c0cb63965b264ba.gif?imageMogr2/auto-orient/strip)
+
 > 如果对你有帮助，别忘了点个赞和关注~
+
