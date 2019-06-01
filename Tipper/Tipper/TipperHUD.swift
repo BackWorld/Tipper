@@ -88,12 +88,12 @@ public final class TipperHUD: TipperViewController {
 	}
 	
 	public static func removeAll() {
-		let viewControllers = Tipper.topViewControllerOfApplicationKeyWindow()?.childViewControllers
+        let viewControllers = Tipper.topViewControllerOfApplicationKeyWindow()?.children
 		viewControllers?.forEach{
 			vc in
 			if vc is TipperHUD{
 				vc.view.removeFromSuperview()
-				vc.removeFromParentViewController()
+                vc.removeFromParent()
 			}
 		}
 	}

@@ -64,12 +64,12 @@ internal final class TipperToast: TipperViewController {
 	}
 	
 	public static func removeAll() {
-		let viewControllers = Tipper.topViewControllerOfApplicationKeyWindow()?.childViewControllers
+        let viewControllers = Tipper.topViewControllerOfApplicationKeyWindow()?.children
 		viewControllers?.forEach{
 			vc in
 			if vc is TipperToast{
 				vc.view.removeFromSuperview()
-				vc.removeFromParentViewController()
+                vc.removeFromParent()
 			}
 		}
 	}

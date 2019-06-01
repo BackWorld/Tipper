@@ -61,7 +61,7 @@ public struct Tipper {
 	
 	public static func alert(title: String?, 
 	                         message: String?, 
-	                         style: UIAlertControllerStyle = .alert, 
+	                         style: UIAlertController.Style = .alert,
 	                         textFields: [((UITextField) -> Void)?]? = nil, 
 	                         actions: [UIAlertAction]? = nil, 
 	                         completion: (() -> Void)? = nil)
@@ -77,12 +77,12 @@ public struct Tipper {
 	}
 
 	public static func removeAll(){
-		let viewControllers = topViewControllerOfApplicationKeyWindow()?.childViewControllers
+        let viewControllers = topViewControllerOfApplicationKeyWindow()?.children
 		viewControllers?.forEach{
 			vc in
 			if vc is TipperViewController{
 				vc.view.removeFromSuperview()
-				vc.removeFromParentViewController()
+				vc.removeFromParent()
 			}
 		}
 	}
@@ -101,7 +101,7 @@ extension Tipper{
 		UIApplication.shared.keyWindow?.endEditing(true)
 		
 		let holder = topViewControllerOfApplicationKeyWindow()
-		holder?.addChildViewController(vc)
+        holder?.addChild(vc)
 		holder?.view.addSubview(vc.view)
 		
 		vc.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]

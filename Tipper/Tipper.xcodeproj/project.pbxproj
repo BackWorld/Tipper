@@ -15,7 +15,6 @@
 		805346822052632C00F22349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8053467A2052632C00F22349 /* Assets.xcassets */; };
 		805346832052632C00F22349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8053467B2052632C00F22349 /* LaunchScreen.storyboard */; };
 		805346842052632C00F22349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8053467D2052632C00F22349 /* Main.storyboard */; };
-		805346852052632C00F22349 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8053467F2052632C00F22349 /* Info.plist */; };
 		805346862052632C00F22349 /* TipperHUDDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805346802052632C00F22349 /* TipperHUDDemoVC.swift */; };
 		805346962052694A00F22349 /* TipperToastDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805346952052694A00F22349 /* TipperToastDemoVC.swift */; };
 		8053469820526DA800F22349 /* TipperSnackBarDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053469720526DA800F22349 /* TipperSnackBarDemoVC.swift */; };
@@ -243,6 +242,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -262,7 +262,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				805346852052632C00F22349 /* Info.plist in Resources */,
 				805346842052632C00F22349 /* Main.storyboard in Resources */,
 				805346822052632C00F22349 /* Assets.xcassets in Resources */,
 				805346832052632C00F22349 /* LaunchScreen.storyboard in Resources */,
@@ -347,7 +346,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gm.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -360,7 +359,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gm.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -482,7 +481,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -502,7 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gm.Tipper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

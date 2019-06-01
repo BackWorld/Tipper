@@ -53,7 +53,7 @@ public class TipperViewController: UIViewController {
 	
 	public func dismiss(){
 		view.removeFromSuperview()
-		removeFromParentViewController()
+        removeFromParent()
 	}
 }
 
